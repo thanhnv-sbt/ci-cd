@@ -1,5 +1,7 @@
 <?php
 
+// phpcs:disable Generic.Files.SideEffectsDeclaration
+
 /*
 |--------------------------------------------------------------------------
 | Test Case
@@ -11,11 +13,9 @@
 |
 */
 
-(function () {
-    pest()->extend(Tests\TestCase::class)
-        // ->use(Illuminate\Foundation\Testing\RefreshDatabase::class)
-        ->in('Feature');
-})();
+pest()->extend(Tests\TestCase::class)
+ // ->use(Illuminate\Foundation\Testing\RefreshDatabase::class)
+    ->in('Feature');
 
 /*
 |--------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 <?php
 
-/* phpcs:disable Generic.Files.SideEffectsDeclaration */
+// phpcs:disable PSR1.Files.SideEffects
 
 /*
 |--------------------------------------------------------------------------

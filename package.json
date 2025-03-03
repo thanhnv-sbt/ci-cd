@@ -3,7 +3,10 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "lint": "eslint .",
+        "test": "jest",
+        "build": "react-scripts build"
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",

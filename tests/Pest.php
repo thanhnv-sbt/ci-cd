@@ -1,7 +1,5 @@
 <?php
-
-// phpcs:disable Generic.Files.SideEffectsDeclaration
-
+/* phpcs:disable Generic.Files.SideEffectsDeclaration */
 /*
 |--------------------------------------------------------------------------
 | Test Case
